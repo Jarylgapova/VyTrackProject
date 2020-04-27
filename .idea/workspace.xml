@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08627ccd-c1a8-4aab-8a5d-e027f1c9d024" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/page/AbstractPageBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/page/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/page/activities/CalendarEventsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/page/fleet/VehiclesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/AbstractTestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/Homework5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/utilities/DateTimeUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automation/utilities/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignor" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="08627ccd-c1a8-4aab-8a5d-e027f1c9d024" name="Default Changelist" comment="Homework 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/page/activities/CalendarEventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/page/activities/CalendarEventsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/tests/Homework5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/tests/Homework5.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +61,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Homework5.TestCase8">
-    <configuration name="Homework5.TestCase4" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Homework5.TestCase6">
+    <configuration name="Homework5.TestCase1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="VyTrackProject" />
       <extension name="coverage">
         <pattern>
@@ -84,7 +72,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.automation.tests" />
       <option name="MAIN_CLASS_NAME" value="com.automation.tests.Homework5" />
-      <option name="METHOD_NAME" value="TestCase4" />
+      <option name="METHOD_NAME" value="TestCase1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -166,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Homework5.TestCase6" />
+        <item itemvalue="TestNG.Homework5.TestCase1" />
         <item itemvalue="TestNG.Homework5.TestCase8" />
         <item itemvalue="TestNG.Homework5.TestCase7" />
-        <item itemvalue="TestNG.Homework5.TestCase6" />
         <item itemvalue="TestNG.Homework5.TestCase5" />
-        <item itemvalue="TestNG.Homework5.TestCase4" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +173,14 @@
       <option name="presentableId" value="Default" />
       <updated>1585872987425</updated>
     </task>
+    <task id="LOCAL-00001" summary="Homework 5">
+      <created>1586802940897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586802940897</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,5 +195,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 5" />
   </component>
 </project>

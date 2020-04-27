@@ -82,6 +82,16 @@ public class CalendarEventsPage extends AbstractPageBase {
     @FindBy(className = "recurrence-repeats__select")
     private WebElement repeats;
 
+    @FindBy(xpath = "/html/body/div[6]/ul/li[43]")
+    private WebElement time;
+
+
+    public void addTheStartTime(){
+        BrowserUtils.wait(2);
+        Select select = new Select(time);
+
+    }
+
     public String getDailyDefaultOption(){
         Select select = new Select(repeats);
 

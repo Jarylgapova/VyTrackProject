@@ -95,8 +95,23 @@ public class Homework5 extends AbstractTestBase {
 
         test.pass("Time differences verified");
     }
-
     @Test
+    public void TestCase6() {
+        test = report.createTest("Verify that end time is equals to “10:00 PM");
+        LoginPage loginPage = new LoginPage();
+        CalendarEventsPage calenderEventsPage = new CalendarEventsPage();
+
+        loginPage.login();
+        calenderEventsPage.navigateTo("Activities", "Calendar Events");
+        calenderEventsPage.clickToCreateCalendarEvent();
+        calenderEventsPage.addTheStartTime();
+
+        assertEquals(calenderEventsPage.getEndTime(),"9:00 PM" );
+
+    }
+
+
+        @Test
     public void TestCase7() {
         test = report.createTest("Verify date and time input are displayed");
         LoginPage loginPage = new LoginPage();
